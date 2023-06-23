@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Google-Home Page</title>
+		<meta name='description' content='This website is related to Google'>
+		<meta name='keywords' content='Gmail,Images'>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<meta name='author' content='Google'>
+		<meta http-equiv='refresh' content="60">
+		<meta charset='utf-8'>
+        <style>
+            *{
+                margin: 0px;
+                border: 0px;
+                box-sizing: border-box;
+            }
+            section{
+                position: relative;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+            }
+            section header{
+                position: absolute;
+                top: 0;
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                padding: 20px;
+            }
+            section header ul{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+            section header ul li{
+                list-style: none;
+                margin-left: 20px;
+            }
+            section header ul li a{
+                color: black;
+                text-decoration: none;
+                font-size: 15px;
+            }
+            section header ul li button{
+                background: blue;
+                color: white;
+                outline: none;
+                border: 5px slod black;
+                padding: 8px 14px;
+                font-size: 15px;
+              font-weight: 700;
+              border-radius: 5px;
+              cursor: pointer;
+            }
+            section .main{
+                width: 400px;
+                display:flex;
+                flex-direction: column;
+                align-items:center;
+                justify-content: center;
+            }
+            section .main .searchbox{
+                position:relative;
+                width:100%;
+                margin-top: 20px;
+            }
+            section .main .searchbox .search{
+                width:100%;
+                padding:10px 60px 45px 10px;
+                border:1px solid black;
+                outline:none;
+                font-size: 18px;
+            }
+            section .main .searchbox .icons{
+                position:absolute;
+                top:0px;
+                width:100%;
+                display:flex;
+                justify-content: space-between;
+                padding:12px 20px;
+                align-items: center;
+                pointer-events: none;
+            }
+            section .main .buttons{
+                margin-top:20px;
+            }
+            section .main .buttons button{
+                margin: 0 5px;
+                padding: 12px 20px;
+                color: grey;
+                font-size:15px;
+                border:none;
+                cursor: pointer;
+                border-radius: 4px;
+                border: 1px solid transparent;
+                outline:none;
+            }
+            section .main .buttons button:hover{
+                border:1px solid white;
+            }
+            section .main .languages{
+                display: flex;
+                margin-top: 20px;
+            }
+            section .main .languages li{
+                margin: 0 5px;
+            }
+
+            
+        </style>
+	
+	</head>
+	<body>
+
+        <section>
+            <header>
+                <ul>
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li><a href="#"><img src="bars.png"></a></li>
+                    <li><button>Sign</button></li>
+                </ul>
+            </header>
+            <div class="main">
+                <img src="google.png">
+                <div class="searchbox">
+                    <input type="text" class="search">
+                    <div class="icons">
+                        <div><img src="search.png"></div>
+                        <div><img src="mic.png"></div>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button>Google search</button>
+                    <button>I'm Feelig Lucky</button>
+                </div>
+                <ul class="languages" style="list-style: none;">
+                    <li>Google offered in:</li>
+                    <li><a href="#">हिन्दी </a></li>
+                    <li><a href="#">বাংলা </a></li>
+                    <li><a href="#">తెలుగు </a></li>
+                    <li><a href="#">मराठी</a></li>
+                    <li><a href="#">தமிழ் </a></li>
+                    <li><a href="#">ગુજરાતી </a></li>
+                    <li><a href="#">ಕನ್ನಡ </a></li>
+                    <li><a href="#">മലയാളം  </a></li>
+                    <li><a href="#">ਪੰਜਾਬੀ</a></li>
+                </ul>
+
+            </div>
+        </section>
+
+
+
+	</body>
+</html>
